@@ -8,4 +8,7 @@ public class DocumentPage {
 	
 	@FindBy(xpath = "//img[@alt='Create Document...']")
 	private WebElement adddocbtn;
+	
+	@FindBy(name ="search_text")
+	private WebElement searchtxt;
 }
