@@ -13,6 +13,17 @@ public class HomePage {
 		PageFactory.initElements(driver,this);
 	}
 	
+	@FindBy(linkText = "Documents")
+	private WebElement docLink;
+	
+	public WebElement getDocLink() {
+		return docLink;
+	}
+
+	public void setDocLink(WebElement docLink) {
+		this.docLink = docLink;
+	}
+
 	@FindBy(linkText="Organizations")
 	private WebElement orgLink;
 	
