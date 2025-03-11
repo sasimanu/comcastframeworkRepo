@@ -8,4 +8,9 @@ public class CreateDocumentPage {
 	public void helloTest() {
 		System.out.println("document page");
 	}
+	
+	@Test
+	public void haiTest() {
+		System.out.println("Hello Test");
+	}
 }
